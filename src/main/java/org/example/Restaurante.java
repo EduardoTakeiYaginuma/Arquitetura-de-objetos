@@ -21,7 +21,7 @@ public class Restaurante {
     void imprimeMenu() {
         for (int i = 0; i < cardapio.size(); i++) {
             Item item = cardapio.get(i);
-            System.out.println(item.nome + ":" + item.preco);
+            System.out.println(item.nome + ": " + item.preco);
         }
     }
 
